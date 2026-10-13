@@ -2,7 +2,7 @@ import time
 
 import pyautogui # type: ignore
 
-MESSAGE = "I love you, my wife"
+MESSAGE = "I love you"
 TIMES = 100
 START_DELAY = 10
 LETTER_DELAY = 0.01
@@ -11,7 +11,7 @@ PAUSE_AFTER_SEND = 0.3
 pyautogui.FAILSAFE = True
 pyautogui.PAUSE = 0
 
-print(f"Starting in {START_DELAY} seconds. Click the WhatsApp text bar now.")
+print(f"Starting in {START_DELAY} seconds. Click the text bar now.")
 print("To stop: slam the mouse into any screen corner.")
 
 for left in range(START_DELAY, 0, -1):
