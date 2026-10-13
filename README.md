@@ -1,8 +1,8 @@
 # iLoveyou.py
 
-A tiny Python script that types a message into whatever text box you have focused, presses Enter, and repeats. I made it to send "I love you" to my wife over and over on WhatsApp, letter by letter, like I was typing it myself.
+A tiny Python script that types a message into whatever text box you have focused, presses Enter, and repeats. I made it to send "I love you" to my wife over and over, letter by letter, like I was typing it myself.
 
-It waits 10 seconds when you start it, so you have time to switch to WhatsApp and click the message bar.
+It waits 10 seconds when you start it, so you have time to switch to the app and click the message bar.
 
 ## What it does
 
@@ -11,7 +11,7 @@ It waits 10 seconds when you start it, so you have time to switch to WhatsApp an
 3. Presses Enter.
 4. Repeats 100 times.
 
-It works with any app that has a text box, not just WhatsApp.
+It works with any app that has a text box.
 
 ## Requirements
 
@@ -57,7 +57,7 @@ Everything you might want to change is at the top of `iLoveyou.py`:
 | `LETTER_DELAY` | `0.01` | Seconds between each letter |
 | `PAUSE_AFTER_SEND` | `0.3` | Seconds to wait after each Enter |
 
-If letters get dropped or messages get cut in half, raise `LETTER_DELAY` a little. WhatsApp Web can lag when typing is very fast.
+If letters get dropped or messages get cut in half, raise `LETTER_DELAY` a little.
 
 ## Troubleshooting
 
