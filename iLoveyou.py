@@ -11,8 +11,7 @@ PAUSE_AFTER_SEND = 0.3
 pyautogui.FAILSAFE = True
 pyautogui.PAUSE = 0
 
-print(f"Starting in {START_DELAY} seconds. Click the text bar now.")
-print("To stop: slam the mouse into any screen corner.")
+print(f"{START_DELAY}")
 
 for left in range(START_DELAY, 0, -1):
     print(left, end=" ", flush=True)
